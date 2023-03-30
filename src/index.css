@@ -17,4 +17,37 @@ body {
 .App {
   display: flex;
   gap: 10px;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #f3943c;
+}
+
+.nav-items {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.home {
+  padding-top: 30px;
+}
+
+.calculatorPage {
+  padding-top: 30px;
+}
+
+.quote {
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
 }
