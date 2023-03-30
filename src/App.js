@@ -6,12 +6,13 @@ import {
 } from 'react-router-dom';
 import Calculator from './components/calculator';
 import Home from './components/Home';
-import Quotes from './components/Quotes';
 import NavBar from './components/NavBar';
+import Quote from './components/calcQuote';
 
 function App() {
   return (
     <div className="App">
+      <Quote />
       <Calculator />
     </div>
   );

@@ -13,3 +13,8 @@ body {
   align-items: center;
   padding-top: 50px;
 }
+
+.App {
+  display: flex;
+  gap: 10px;
+}
